@@ -17,6 +17,9 @@ image::media/demo.gif[Example of using zsh-shift-select]
 
 
 == Changes To The Original
+
+Pannxe — I dont know how to write adoc :(
+
 This folk simply change kbd:[Shift + Ctrl + Left Arrow] and kbd:[Shift + Ctrl + Right Arrow] to match the signal sent from iTerm 2.
 
 By default iTerm2 do not have kbd:[Shift + Ctrl + Home] and kbd:[Shift + Ctrl + End] binded so go ahead and bind them to what ever keys you want.
