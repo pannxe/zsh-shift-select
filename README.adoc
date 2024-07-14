@@ -1,4 +1,4 @@
-= Zsh Shift Select Mode
+= Zsh Shift Select Mode (iTerm2 Moded)
 :proj-name: zsh-shift-select
 :gh-name: jirutka/{proj-name}
 // Enable kbd:[] macro
@@ -14,6 +14,15 @@ Key bindings for moving the cursor _without_ selection (e.g. kbd:[Ctrl] + arrows
 So is synchronization with the system clipboard.footnote:[For an example, see https://github.com/jirutka/alpine-zsh-config/blob/master/zshrc.d/70-clipboard.zsh[clipboard integration in alpine-zsh-config].]
 
 image::media/demo.gif[Example of using zsh-shift-select]
+
+
+== Changes To The Original
+This folk simply change kbd:[Shift + Ctrl + Left Arrow] and kbd:[Shift + Ctrl + Right Arrow] to match the signal sent from iTerm 2.
+
+By default iTerm2 do not have kbd:[Shift + Ctrl + Home] and kbd:[Shift + Ctrl + End] binded so go ahead and bind them to what ever keys you want.
+
+* Map key you want to "select to the beginning of an input buffer" to "^[[1;4H"
+* Map key you want to "select to the end of an input buffer" to "^[[1;4F"
 
 
 == Key Bindings
