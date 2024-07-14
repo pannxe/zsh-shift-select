@@ -24,8 +24,10 @@ This folk simply change kbd:[Shift + Ctrl + Left Arrow] and kbd:[Shift + Ctrl + 
 
 By default iTerm2 do not have kbd:[Shift + Ctrl + Home] and kbd:[Shift + Ctrl + End] binded so go ahead and bind them to what ever keys you want.
 
-* Map key you want to "select to the beginning of an input buffer" to "^[[1;4H"
-* Map key you want to "select to the end of an input buffer" to "^[[1;4F"
+* Map key you want to "select to the beginning of an input buffer" to `^[[1;4H`
+* Map key you want to "select to the end of an input buffer" to `^[[1;4F`
+
+In setting menu it should be: Esc + `[1;4H` and Esc + `[1;4F`
 
 
 == Key Bindings
